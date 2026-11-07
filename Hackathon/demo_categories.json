@@ -1,0 +1,28 @@
+{
+  "colour": {
+    "options": [
+      "factors within this category that aren't covered by any of the options",
+      "red",
+      "green",
+      "blue"
+    ],
+    "dimensions": [
+      0,
+      1,
+      2,
+      6
+    ]
+  },
+  "size": {
+    "options": [
+      "factors within this category that aren't covered by any of the options",
+      "small",
+      "large"
+    ],
+    "dimensions": [
+      3,
+      4,
+      5
+    ]
+  }
+}

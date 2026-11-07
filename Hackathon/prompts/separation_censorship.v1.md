@@ -1,0 +1,3 @@
+# expand_categories
+
+Read {attachement 1} and separate it into different situations. Situations generally consist of one problem and attempts to solve it. Coverage of the last situation is likely incomplete, you should still return it. At the same time, censor the following information: {attachement 2} You should also remove information that is certainly irrelevant to future operations. Situations may overlap. Return json format, where each situation has its text, and a timestamp.
