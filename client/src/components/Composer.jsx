@@ -15,7 +15,7 @@ export default function Composer({ value, onChange, onSend }) {
       <div className="composer-row">
         <textarea
           aria-label="Message"
-          placeholder="Placeholder..."
+          placeholder="Describe the situation, e.g. unit ID and symptoms…"
           rows={1}
           maxLength={MAX}
           value={value}

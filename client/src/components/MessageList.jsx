@@ -1,7 +1,7 @@
 import { useEffect, useRef } from 'react'
 import Message from './Message'
 
-export default function MessageList({ messages }) {
+export default function MessageList({ messages, resultsProps, onExample }) {
   const endRef = useRef(null)
 
   useEffect(() => {
@@ -11,7 +11,7 @@ export default function MessageList({ messages }) {
   return (
     <div className="message-list" aria-live="polite">
       {messages.map((m) => (
-        <Message key={m.id} message={m} />
+        <Message key={m.id} message={m} resultsProps={resultsProps} onExample={onExample} />
       ))}
       <div ref={endRef} />
     </div>

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <title>A-stars</title>
+  <rect width="64" height="64" rx="12" fill="#0012b4"/>
+  <path fill="#fff" d="M32 9 L54 53 L45 53 L32 27 L19 53 L10 53 Z"/>
+  <path fill="#ffc21a" d="M32 30.5 L34.02 36.72 L40.56 36.72 L35.27 40.56 L37.29 46.78 L32 42.94 L26.71 46.78 L28.73 40.56 L23.44 36.72 L29.98 36.72 Z"/>
+</svg>
